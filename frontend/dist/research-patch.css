@@ -1,0 +1,21 @@
+.research-final-patch { background:#fff; border:1px solid #dfe4ec; border-left:4px solid #5968c8; border-radius:16px; padding:22px; margin-bottom:20px; box-shadow:0 4px 16px rgba(25,36,54,.035); }
+.research-final-patch h2 { margin:0 0 8px; font-size:21px; }
+.research-final-patch p { color:#6f7a8d; line-height:1.55; }
+.research-final-actions { display:flex; gap:10px; flex-wrap:wrap; margin:16px 0; }
+.research-final-actions button { border-radius:10px; padding:10px 15px; border:1px solid #d6dce6; font-weight:700; background:#fff; color:#344056; cursor:pointer; }
+.research-final-actions button:first-child { background:#5968c8; color:#fff; border-color:#5968c8; }
+.research-final-actions button:disabled { opacity:.55; cursor:not-allowed; }
+.research-final-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:14px 0; }
+.research-final-metric { border:1px solid #e7eaf0; border-radius:12px; padding:14px; }
+.research-final-metric span,.research-final-metric strong { display:block; }
+.research-final-metric span { color:#8993a4; font-size:11px; margin-bottom:6px; }
+.research-final-metric strong { font-size:22px; color:#253044; }
+.research-final-note { padding:12px 14px; border-radius:10px; background:#fff9ed; border:1px solid #f1dfb8; color:#765b27!important; }
+.research-final-table { width:100%; border-collapse:collapse; margin-top:14px; font-size:13px; }
+.research-final-table th,.research-final-table td { text-align:left; padding:9px 10px; border-bottom:1px solid #edf0f4; }
+.research-final-bars { display:grid; gap:8px; margin:14px 0; }
+.research-final-bar { display:grid; grid-template-columns:180px 1fr 60px; gap:10px; align-items:center; font-size:12px; }
+.research-final-track { height:10px; border-radius:999px; background:#edf0f5; overflow:hidden; }
+.research-final-fill { height:100%; background:#6474d2; border-radius:inherit; }
+.research-final-error { color:#a93f47!important; }
+@media(max-width:760px){.research-final-grid{grid-template-columns:1fr 1fr}.research-final-bar{grid-template-columns:1fr 52px}.research-final-track{grid-column:1/-1}.research-final-actions button{width:100%}}

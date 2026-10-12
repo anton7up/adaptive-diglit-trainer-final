@@ -1,0 +1,55 @@
+Adaptive Digital Literacy Trainer — FINAL RESEARCH RELEASE
+Release date: 2026-09-17
+API version: 2.0.0
+
+Final verification:
+- Backend/API/ML regression: 175 passed, 1 deselected
+- Slow/integration suite: 1 passed, 175 deselected
+- Total confirmed passing tests: 176
+- Python compileall: PASS
+- Data-quality gates: PASS (14400 rows, 180 users, 120 tasks, 6 skills)
+- Project source audit: PASS
+- Source files: 117
+- Source lines: 11214
+- Python syntax errors: 0
+- Suspicious template/AI markers: 0
+- Production research patch JavaScript syntax: PASS
+- SVG research figures XML validation: PASS
+- Active model: hgb_regularized-20260917105441-b6e211
+
+Primary research endpoint:
+- design: matched synthetic policy simulation
+- learners: 60
+- horizon: 90 tasks
+- mastery threshold: mean >= 0.70 and every skill >= 0.50
+- ML-adaptive restricted mean tasks to mastery: 73.3
+- random restricted mean tasks to mastery: 84.6
+- tasks saved: 11.3 (95% CI 8.2 to 14.6)
+- relative reduction: 13.35%
+- reach rate: 70% vs 25%
+- paired randomization p < 0.001
+- Cohen dz: 0.90
+
+Mastery-gain endpoint:
+- ML-adaptive mean gain: 0.211
+- random mean gain: 0.162
+- difference: 0.048 (95% CI 0.044 to 0.053)
+- p < 0.001
+- Cohen dz: 2.58
+
+Robustness:
+- five independent seeds: 11, 23, 37, 53, 71
+- significant time-to-mastery advantage: 5/5 runs
+- mean tasks saved: 8.14
+- significant mastery-gain advantage: 5/5 runs
+
+Classical educational baselines on learner-disjoint holdout:
+- ML adaptive predictor: ROC-AUC 0.7764, Brier 0.1891
+- IRT-2PL online: ROC-AUC 0.7542, Brier 0.2016
+- Elo: ROC-AUC 0.7424, Brier 0.2019
+- PFA: ROC-AUC 0.7090, Brier 0.2184
+- BKT: ROC-AUC 0.6256, Brier 0.2483
+- paired user-level Holm-adjusted comparisons: ML lower Brier vs all four baselines, adjusted p < 0.001
+
+Research status:
+The bundled attempt history and policy experiments are synthetic. The release demonstrates reproducible algorithmic adaptivity and includes a randomized human-pilot protocol for external validation.
