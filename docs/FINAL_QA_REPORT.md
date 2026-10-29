@@ -10,7 +10,7 @@
 
 Тесты приведены в соответствие с расширенным банком из 120 заданий и текущим experiment space из 8 ML-конфигураций.
 
-## 2. Python integrity and source audit
+## 2. Python code validation and project statistics
 
 - `python -m compileall -q app scripts tests` — **PASS**.
 - source files: **117**;
