@@ -1,6 +1,6 @@
 # Final QA report
 
-Дата финальной проверки: **17.09.2026**.
+
 
 ## 1. Backend and automated tests
 
