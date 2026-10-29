@@ -159,7 +159,7 @@ cd ../frontend
 npm run build
 
 
-Подробное описание методики и результатов находится в docs/RESEARCH\_METHODS\_AND\_RESULTS.md, архитектура ML-части — в docs/ML\_ARCHITECTURE.md, итоговая техническая проверка — в docs/FINAL\_QA\_REPORT.md.
+Подробное описание методики и результатов находится в docs/RESEARCH\_METHODS\_AND\_RESULTS.md, архитектура ML-части — в docs/ML\_ARCHITECTURE.md.
 
 ## Структура проекта
 
