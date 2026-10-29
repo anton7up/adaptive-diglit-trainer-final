@@ -21,7 +21,6 @@
 - Python functions: **484**;
 - Python classes: **75**;
 - syntax errors: **0**;
-- suspicious template/AI markers reported by project audit: **0**;
 - итог: **PASS**.
 
 ## 3. Dataset quality
