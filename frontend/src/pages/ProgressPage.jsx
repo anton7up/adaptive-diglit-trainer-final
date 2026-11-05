@@ -7,7 +7,9 @@ export default function ProgressPage() {
   const [data, setData] = useState(null);
   const [error, setError] = useState('');
   const load = () => api.get('/progress/me').then(({ data: payload }) => setData(payload)).catch(() => setError('Не удалось загрузить прогресс'));
-  useEffect(load, []);
+  useEffect(() => {
+    load();
+  }, []);
   return (
     <div>
       <header className="page-header"><div><div className="eyebrow">Персональная аналитика</div><h1>Прогресс</h1></div><button className="secondary" onClick={load}>Обновить</button></header>

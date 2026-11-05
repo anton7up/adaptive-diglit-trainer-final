@@ -6,7 +6,9 @@ export default function TeacherDashboardPage() {
   const [data, setData] = useState(null);
   const [error, setError] = useState('');
   const load = () => api.get('/teacher/dashboard').then(({ data: payload }) => setData(payload)).catch(() => setError('Не удалось загрузить аналитику'));
-  useEffect(load, []);
+  useEffect(() => {
+    load();
+  }, []);
   return (
     <div>
       <header className="page-header"><div><div className="eyebrow">Преподаватель</div><h1>Аналитическая панель</h1></div><button className="secondary" onClick={load}>Обновить</button></header>
